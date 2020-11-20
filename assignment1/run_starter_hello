@@ -1,0 +1,5 @@
+#!/bin/bash
+GEM_BIN="../../gem5"
+OUTPUT_DIR="gem5_outputs"
+
+$GEM_BIN/build/ARM/gem5.opt -d gem5_outputs/hello-MinorCPU $GEM_BIN/configs/example/arm/starter_se.py --cpu="minor"  $GEM_BIN/tests/test-progs/hello/bin/arm/linux/hello

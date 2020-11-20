@@ -1,0 +1,7 @@
+#!/bin/bash
+
+[ -z $1 ] && echo -e "Exptected a C program\n\texample: ./compile_for_armv7 program.c" && exit
+
+output=$(echo $1 | sed 's\.c\\')
+
+sudo ../../../dockcross-linux-armv7 bash -c '$CC'" -std=c11 --static $1 -o $output" && echo "$output ready to run"

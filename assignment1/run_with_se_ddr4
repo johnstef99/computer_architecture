@@ -1,0 +1,11 @@
+#!/bin/bash
+GEM_BIN="../../gem5"
+OUTPUT_DIR="gem5_outputs"
+
+[ -z $1 ] && echo -e "Specify cpu type\n\tsyntax: ./run_with_se cpu_type bin2run" && exit
+[ -z $2 ] && echo -e "Specify what to run\n\tsyntax: ./run_with_se cpu_type bin2run" && exit
+
+cpu_type=$1
+bin2run=$(echo $2 | rev | cut -d'/' -f1 | rev)
+
+$GEM_BIN/build/ARM/gem5.opt -d gem5_outputs/$bin2run-$cpu_type-ddr4 $GEM_BIN/configs/example/se.py --cpu-type=$cpu_type --mem-type=DDR4_2400_8x8 --caches -c $2
