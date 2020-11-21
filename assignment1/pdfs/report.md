@@ -26,7 +26,7 @@
 
 a)
 
-- config.ini:20 -> mem_mode**=timing** -> Memory mode: Timing
+- config.ini:20 -> mem_mode=**timing** -> Memory mode: Timing
 - config.ini:44 -> clock=**1000** -> Clock Speed: 1Ghz
 - config.ini:58 -> clock=**250** -> CPU freq: 4Ghz
 - config.ini:65 -> type=**MinorCPU** -> CPU Type: MinorCPU
