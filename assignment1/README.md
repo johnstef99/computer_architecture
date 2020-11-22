@@ -27,6 +27,7 @@ a)
 - config.ini:1652 -> voltage=**3.3** -> Components voltage: 3.3V
 
 b) Committed instractions: **5149** -> stats.txt:14 `system.cpu_cluster.cpus.committedInsts`
+
 c) Προσπελάσεις L2 **480** -> stats.txt:481 `system.cpu\_cluster.l2.overall\_accesses::total`
 
 ### 3)
