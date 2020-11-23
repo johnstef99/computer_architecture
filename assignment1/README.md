@@ -6,7 +6,6 @@
 
 - CPU type: διαλέγεται από ένα array ανάλογα την παράμετρο `--cpu` άρα **MinorCPU**
 - Clock speed: **1Ghz**
-- **>>>>βασικες μοναδες??<<<<**
 - Caches: με την επιλογή minor cpu έχουμε και L1 cache και L2 cache
 - Μνήμη: με την εντολή που τρέχουμε δεν δίνουμε την παράμετρο `--mem-size` άρα παίρνει την default τιμή που είναι **2Gb**
 - Components voltage: default->3.3V
