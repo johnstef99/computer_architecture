@@ -1,0 +1,1235 @@
+========================================
+specbzip_1GHz_64_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.160272
+cpi: 1.602723
+host_cpu_clock: 1000
+sim_cpu_clock: 1000
+icache_miss_rate: 0.000048
+dcache_miss_rate: 0.014140
+l2_miss_rate: 0.271986
+
+
+========================================
+specbzip_2GHz_128_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 128
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.082773
+cpi: 1.655470
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000037
+dcache_miss_rate: 0.013696
+l2_miss_rate: 0.166528
+
+
+========================================
+specbzip_2GHz_32_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 32
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.093961
+cpi: 1.879215
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000061
+dcache_miss_rate: 0.017476
+l2_miss_rate: 0.414497
+
+
+========================================
+specbzip_2GHz_64_128kB_8_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 8
+l1_icache: 131072
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.084115
+cpi: 1.682305
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000045
+dcache_miss_rate: 0.014318
+l2_miss_rate: 0.271941
+
+
+========================================
+specbzip_2GHz_64_32kB_2_128kB_4_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 4
+l1_dcache: 131072
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.082383
+cpi: 1.647655
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000048
+dcache_miss_rate: 0.011043
+l2_miss_rate: 0.361171
+
+
+========================================
+specbzip_2GHz_64_32kB_2_128kB_8_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 8
+l1_dcache: 131072
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.082110
+cpi: 1.642190
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000048
+dcache_miss_rate: 0.010614
+l2_miss_rate: 0.377400
+
+
+========================================
+specbzip_2GHz_64_32kB_2_32kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 32768
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.086017
+cpi: 1.720338
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000048
+dcache_miss_rate: 0.017803
+l2_miss_rate: 0.215535
+
+
+========================================
+specbzip_2GHz_64_32kB_2_64kB_2_1MB_2
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 2
+l2_cache: 1048576
+sim_seconds: 0.087713
+cpi: 1.754253
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000048
+dcache_miss_rate: 0.014328
+l2_miss_rate: 0.349122
+
+
+========================================
+specbzip_2GHz_64_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.084122
+cpi: 1.682445
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000048
+dcache_miss_rate: 0.014318
+l2_miss_rate: 0.271992
+
+
+========================================
+specbzip_2GHz_64_32kB_2_64kB_2_4MB_4
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 4
+l2_cache: 4194304
+sim_seconds: 0.082352
+cpi: 1.647038
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000048
+dcache_miss_rate: 0.014308
+l2_miss_rate: 0.234929
+
+
+========================================
+specbzip_2GHz_64_32kB_2_64kB_2_4MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 4194304
+sim_seconds: 0.082308
+cpi: 1.646152
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000048
+dcache_miss_rate: 0.014308
+l2_miss_rate: 0.233754
+
+
+========================================
+specbzip_2GHz_64_32kB_8_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 8
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.084118
+cpi: 1.682361
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000045
+dcache_miss_rate: 0.014318
+l2_miss_rate: 0.272039
+
+
+========================================
+specbzip_2GHz_64_64kB_4_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 4
+l1_icache: 65536
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.084113
+cpi: 1.682266
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000045
+dcache_miss_rate: 0.014318
+l2_miss_rate: 0.271968
+
+
+========================================
+spechmmer_1GHz_64_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.126441
+cpi: 1.264413
+host_cpu_clock: 1000
+sim_cpu_clock: 1000
+icache_miss_rate: 0.000227
+dcache_miss_rate: 0.001608
+l2_miss_rate: 0.075575
+
+
+========================================
+spechmmer_2GHz_128_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 128
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.063140
+cpi: 1.262804
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000282
+dcache_miss_rate: 0.000936
+l2_miss_rate: 0.066765
+
+
+========================================
+spechmmer_2GHz_32_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 32
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.064294
+cpi: 1.285888
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000233
+dcache_miss_rate: 0.003042
+l2_miss_rate: 0.076200
+
+
+========================================
+spechmmer_2GHz_64_128kB_8_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 8
+l1_icache: 131072
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.063352
+cpi: 1.267041
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000086
+dcache_miss_rate: 0.001615
+l2_miss_rate: 0.078411
+
+
+========================================
+spechmmer_2GHz_64_32kB_2_128kB_4_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 4
+l1_dcache: 131072
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.063182
+cpi: 1.263647
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000228
+dcache_miss_rate: 0.000517
+l2_miss_rate: 0.231517
+
+
+========================================
+spechmmer_2GHz_64_32kB_2_128kB_8_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 8
+l1_dcache: 131072
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.063182
+cpi: 1.263638
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000227
+dcache_miss_rate: 0.000539
+l2_miss_rate: 0.223218
+
+
+========================================
+spechmmer_2GHz_64_32kB_2_32kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 32768
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.063483
+cpi: 1.269656
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000229
+dcache_miss_rate: 0.002124
+l2_miss_rate: 0.057527
+
+
+========================================
+spechmmer_2GHz_64_32kB_2_64kB_2_1MB_2
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 2
+l2_cache: 1048576
+sim_seconds: 0.063369
+cpi: 1.267384
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000227
+dcache_miss_rate: 0.001615
+l2_miss_rate: 0.075578
+
+
+========================================
+spechmmer_2GHz_64_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.063369
+cpi: 1.267384
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000227
+dcache_miss_rate: 0.001615
+l2_miss_rate: 0.075578
+
+
+========================================
+spechmmer_2GHz_64_32kB_2_64kB_2_4MB_4
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 4
+l2_cache: 4194304
+sim_seconds: 0.063369
+cpi: 1.267384
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000227
+dcache_miss_rate: 0.001615
+l2_miss_rate: 0.075578
+
+
+========================================
+spechmmer_2GHz_64_32kB_2_64kB_2_4MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 4194304
+sim_seconds: 0.063369
+cpi: 1.267384
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000227
+dcache_miss_rate: 0.001615
+l2_miss_rate: 0.075578
+
+
+========================================
+spechmmer_2GHz_64_32kB_8_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 8
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.063355
+cpi: 1.267093
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000102
+dcache_miss_rate: 0.001615
+l2_miss_rate: 0.078030
+
+
+========================================
+spechmmer_2GHz_64_64kB_4_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 4
+l1_icache: 65536
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.063352
+cpi: 1.267031
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000093
+dcache_miss_rate: 0.001615
+l2_miss_rate: 0.078229
+
+
+========================================
+speclbm_1GHz_64_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.211076
+cpi: 2.110757
+host_cpu_clock: 1000
+sim_cpu_clock: 1000
+icache_miss_rate: 0.000084
+dcache_miss_rate: 0.079353
+l2_miss_rate: 0.999946
+
+
+========================================
+speclbm_2GHz_128_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 128
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.102745
+cpi: 2.054894
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000095
+dcache_miss_rate: 0.039678
+l2_miss_rate: 0.999860
+
+
+========================================
+speclbm_2GHz_32_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 32
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.229030
+cpi: 4.580604
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000071
+dcache_miss_rate: 0.158703
+l2_miss_rate: 0.999975
+
+
+========================================
+speclbm_2GHz_64_128kB_8_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 8
+l1_icache: 131072
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.141015
+cpi: 2.820302
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000077
+dcache_miss_rate: 0.079353
+l2_miss_rate: 0.999988
+
+
+========================================
+speclbm_2GHz_64_32kB_2_128kB_4_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 4
+l1_dcache: 131072
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.141016
+cpi: 2.820314
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000084
+dcache_miss_rate: 0.079353
+l2_miss_rate: 0.999946
+
+
+========================================
+speclbm_2GHz_64_32kB_2_128kB_8_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 8
+l1_dcache: 131072
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.141016
+cpi: 2.820314
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000084
+dcache_miss_rate: 0.079353
+l2_miss_rate: 0.999946
+
+
+========================================
+speclbm_2GHz_64_32kB_2_32kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 32768
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.141016
+cpi: 2.820311
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000084
+dcache_miss_rate: 0.079353
+l2_miss_rate: 0.999946
+
+
+========================================
+speclbm_2GHz_64_32kB_2_64kB_2_1MB_2
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 2
+l2_cache: 1048576
+sim_seconds: 0.141086
+cpi: 2.821713
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000084
+dcache_miss_rate: 0.079353
+l2_miss_rate: 0.999946
+
+
+========================================
+speclbm_2GHz_64_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.141016
+cpi: 2.820314
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000084
+dcache_miss_rate: 0.079353
+l2_miss_rate: 0.999946
+
+
+========================================
+speclbm_2GHz_64_32kB_2_64kB_2_4MB_4
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 4
+l2_cache: 4194304
+sim_seconds: 0.140796
+cpi: 2.815929
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000084
+dcache_miss_rate: 0.079353
+l2_miss_rate: 0.999946
+
+
+========================================
+speclbm_2GHz_64_32kB_2_64kB_2_4MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 4194304
+sim_seconds: 0.140796
+cpi: 2.815929
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000084
+dcache_miss_rate: 0.079353
+l2_miss_rate: 0.999946
+
+
+========================================
+speclbm_2GHz_64_32kB_8_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 8
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.141015
+cpi: 2.820302
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000078
+dcache_miss_rate: 0.079353
+l2_miss_rate: 0.999984
+
+
+========================================
+speclbm_2GHz_64_64kB_4_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 4
+l1_icache: 65536
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.141015
+cpi: 2.820302
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000077
+dcache_miss_rate: 0.079353
+l2_miss_rate: 0.999988
+
+
+========================================
+specmcf_1GHz_64_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.128605
+cpi: 1.286047
+host_cpu_clock: 1000
+sim_cpu_clock: 1000
+icache_miss_rate: 0.024116
+dcache_miss_rate: 0.002010
+l2_miss_rate: 0.051575
+
+
+========================================
+specmcf_2GHz_128_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 128
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.061990
+cpi: 1.239805
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.024221
+dcache_miss_rate: 0.001279
+l2_miss_rate: 0.028937
+
+
+========================================
+specmcf_2GHz_32_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 32
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.069157
+cpi: 1.383147
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.022858
+dcache_miss_rate: 0.003110
+l2_miss_rate: 0.090390
+
+
+========================================
+specmcf_2GHz_64_128kB_8_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 8
+l1_icache: 131072
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.059944
+cpi: 1.198886
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000020
+dcache_miss_rate: 0.002010
+l2_miss_rate: 0.723918
+
+
+========================================
+specmcf_2GHz_64_32kB_2_128kB_4_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 4
+l1_dcache: 131072
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.064983
+cpi: 1.299665
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.024124
+dcache_miss_rate: 0.001870
+l2_miss_rate: 0.051894
+
+
+========================================
+specmcf_2GHz_64_32kB_2_128kB_8_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 8
+l1_dcache: 131072
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.064983
+cpi: 1.299665
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.024125
+dcache_miss_rate: 0.001863
+l2_miss_rate: 0.051910
+
+
+========================================
+specmcf_2GHz_64_32kB_2_32kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 32768
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.065038
+cpi: 1.300755
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.024105
+dcache_miss_rate: 0.002334
+l2_miss_rate: 0.050915
+
+
+========================================
+specmcf_2GHz_64_32kB_2_64kB_2_1MB_2
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 2
+l2_cache: 1048576
+sim_seconds: 0.065253
+cpi: 1.305067
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.024115
+dcache_miss_rate: 0.002010
+l2_miss_rate: 0.056244
+
+
+========================================
+specmcf_2GHz_64_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.064995
+cpi: 1.299894
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.024116
+dcache_miss_rate: 0.002010
+l2_miss_rate: 0.051574
+
+
+========================================
+specmcf_2GHz_64_32kB_2_64kB_2_4MB_4
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 4
+l2_cache: 4194304
+sim_seconds: 0.064968
+cpi: 1.299367
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.024116
+dcache_miss_rate: 0.002010
+l2_miss_rate: 0.051064
+
+
+========================================
+specmcf_2GHz_64_32kB_2_64kB_2_4MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 4194304
+sim_seconds: 0.064968
+cpi: 1.299367
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.024116
+dcache_miss_rate: 0.002010
+l2_miss_rate: 0.051064
+
+
+========================================
+specmcf_2GHz_64_32kB_8_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 8
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.059943
+cpi: 1.198856
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000020
+dcache_miss_rate: 0.002010
+l2_miss_rate: 0.723920
+
+
+========================================
+specmcf_2GHz_64_64kB_4_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 4
+l1_icache: 65536
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.059942
+cpi: 1.198836
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000020
+dcache_miss_rate: 0.002010
+l2_miss_rate: 0.723936
+
+
+========================================
+specsjeng_1GHz_64_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.709309
+cpi: 7.093094
+host_cpu_clock: 1000
+sim_cpu_clock: 1000
+icache_miss_rate: 0.000023
+dcache_miss_rate: 0.122949
+l2_miss_rate: 0.999985
+
+
+========================================
+specsjeng_2GHz_128_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 128
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.342151
+cpi: 6.843014
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000016
+dcache_miss_rate: 0.061476
+l2_miss_rate: 0.999964
+
+
+========================================
+specsjeng_2GHz_32_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 32
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.888303
+cpi: 17.766056
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000027
+dcache_miss_rate: 0.245894
+l2_miss_rate: 0.999993
+
+
+========================================
+specsjeng_2GHz_64_128kB_8_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 8
+l1_icache: 131072
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.516993
+cpi: 10.339851
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000022
+dcache_miss_rate: 0.122949
+l2_miss_rate: 0.999991
+
+
+========================================
+specsjeng_2GHz_64_32kB_2_128kB_4_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 4
+l1_dcache: 131072
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.516813
+cpi: 10.336264
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000023
+dcache_miss_rate: 0.122949
+l2_miss_rate: 0.999986
+
+
+========================================
+specsjeng_2GHz_64_32kB_2_128kB_8_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 8
+l1_dcache: 131072
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.516808
+cpi: 10.336162
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000023
+dcache_miss_rate: 0.122949
+l2_miss_rate: 0.999986
+
+
+========================================
+specsjeng_2GHz_64_32kB_2_32kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 32768
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.516807
+cpi: 10.336132
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000023
+dcache_miss_rate: 0.122949
+l2_miss_rate: 0.999983
+
+
+========================================
+specsjeng_2GHz_64_32kB_2_64kB_2_1MB_2
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 2
+l2_cache: 1048576
+sim_seconds: 0.517036
+cpi: 10.340725
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000023
+dcache_miss_rate: 0.122949
+l2_miss_rate: 0.999985
+
+
+========================================
+specsjeng_2GHz_64_32kB_2_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.516821
+cpi: 10.336425
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000023
+dcache_miss_rate: 0.122949
+l2_miss_rate: 0.999985
+
+
+========================================
+specsjeng_2GHz_64_32kB_2_64kB_2_4MB_4
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 4
+l2_cache: 4194304
+sim_seconds: 0.516535
+cpi: 10.330696
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000023
+dcache_miss_rate: 0.122949
+l2_miss_rate: 0.999985
+
+
+========================================
+specsjeng_2GHz_64_32kB_2_64kB_2_4MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 2
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 4194304
+sim_seconds: 0.516707
+cpi: 10.334141
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000023
+dcache_miss_rate: 0.122949
+l2_miss_rate: 0.999985
+
+
+========================================
+specsjeng_2GHz_64_32kB_8_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 8
+l1_icache: 32768
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.516983
+cpi: 10.339664
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000022
+dcache_miss_rate: 0.122949
+l2_miss_rate: 0.999990
+
+
+========================================
+specsjeng_2GHz_64_64kB_4_64kB_2_2MB_8
+========================================
+cache_line_size: 64
+l1_dcache_assoc: 2
+l1_dcache: 65536
+l1_icache_assoc: 4
+l1_icache: 65536
+l2_assoc: 8
+l2_cache: 2097152
+sim_seconds: 0.516811
+cpi: 10.336213
+host_cpu_clock: 1000
+sim_cpu_clock: 500
+icache_miss_rate: 0.000022
+dcache_miss_rate: 0.122949
+l2_miss_rate: 0.999991
+
+

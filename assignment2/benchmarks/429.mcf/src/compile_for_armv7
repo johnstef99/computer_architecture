@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo ../../../../../dockcross-linux-armv7 bash -c '$CC'" -lm -DSPEC_CPU \
+  -DNDEBUG \
+  --static \
+  implicit.c mcf.c mcfutil.c output.c pbeampp.c pbla.c pflowup.c psimplex.c \
+  pstart.c readmin.c treeup.c \
+  -O0 -o mcf" && \
+  echo "no errors"

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo ../../../../../dockcross-linux-armv7 bash -c '$CC'" -lm -DSPEC_CPU \
+  -DNDEBUG \
+  --static \
+  lbm.c main.c \
+  -O0 -o lbm -lm" && \
+  echo "no errors"

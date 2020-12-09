@@ -1,0 +1,30 @@
+#!/bin/bash
+
+GEM_BIN="../../gem5"
+OUTPUT_DIR="gem5_outputs"
+
+$GEM_BIN/build/ARM/gem5.opt \
+  -d "$OUTPUT_DIR/specbzip\
+_${cpu_cloc}\
+_${cache_line_size}\
+_${l1_icache}\
+_${l1_icache_assoc}\
+_${l1_dcache}\
+_${l1_dcache_assoc}\
+_${l2_cache}\
+_${l2_assoc}" \
+  $GEM_BIN/configs/example/se.py \
+  --cpu-type=MinorCPU \
+  --caches \
+  --l2cache \
+  --cpu-clock=$cpu_cloc \
+  --cacheline_size=$cache_line_size \
+  --l1i_size=$l1_icache \
+  --l1i_assoc=$l1_icache_assoc \
+  --l1d_size=$l1_dcache \
+  --l1d_assoc=$l1_dcache_assoc \
+  --l2_size=$l2_cache \
+  --l2_assoc=$l2_assoc \
+  -c "benchmarks/401.bzip2/src/specbzip" \
+  -o "benchmarks/401.bzip2/data/input.program 10" \
+  -I 100000000

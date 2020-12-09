@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo ../../../../../dockcross-linux-armv7 bash -c '$CC'" -lm -DSPEC_CPU \
+  -DNDEBUG --static spec.c blocksort.c bzip2.c bzlib.c compress.c crctable.c \
+  decompress.c huffman.c randtable.c -O0 -o specbzip" && \
+  echo "no errors"

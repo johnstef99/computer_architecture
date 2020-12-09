@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo ../../../../../dockcross-linux-armv7 bash -c '$CC'" -lm -DSPEC_CPU \
+  -DNDEBUG \
+  --static \
+  attacks.c book.c crazy.c draw.c ecache.c epd.c eval.c leval.c \
+	moves.c neval.c partner.c proof.c rcfile.c search.c see.c seval.c \
+	sjeng.c ttable.c utils.c \
+  -O0 -o sjeng" && \
+  echo "no errors"

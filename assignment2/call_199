@@ -1,0 +1,74 @@
+#!/bin/bash
+
+init () {
+  export cpu_cloc=2GHz
+  export cache_line_size=64
+  export l1_icache=32kB
+  export l1_icache_assoc=2
+  export l1_dcache=64kB
+  export l1_dcache_assoc=2
+  export l2_cache=2MB
+  export l2_assoc=8
+}
+
+figlet Call_199
+
+#FIRST RUN
+#init
+#./specbzip_run ; ./spechmmer_run ; ./specmcf_run ; ./specsjeng_run ; ./speclbm_run ;
+#
+#export cpu_cloc=1GHz
+#
+#./specbzip_run ; ./spechmmer_run ; ./specmcf_run ; ./specsjeng_run ; ./speclbm_run ; init ;
+#
+#export l1_icache=64kB
+#export l1_icache_assoc=4
+#
+#./specbzip_run ; ./spechmmer_run ; ./specmcf_run ; ./specsjeng_run ; ./speclbm_run ; init ;
+#
+#export l1_dcache=128kB
+#export l1_dcache_assoc=4
+#
+#./specbzip_run ; ./spechmmer_run ; ./specmcf_run ; ./specsjeng_run ; ./speclbm_run ; init ;
+#
+#export l2_cache=4MB
+#export l2_assoc=8
+#
+#./specbzip_run ; ./spechmmer_run ; ./specmcf_run ; ./specsjeng_run ; ./speclbm_run ; init ;
+
+#SECOND RUN
+init
+#L1 ichace
+export l1_icache=128kB
+export l1_icache_assoc=8
+(./specbzip_run & ./spechmmer_run & ./specmcf_run) ; (./specsjeng_run & ./speclbm_run) ; init ;
+export l1_icache=32kB
+export l1_icache_assoc=8
+(./specbzip_run & ./spechmmer_run & ./specmcf_run) ; (./specsjeng_run & ./speclbm_run) ; init ;
+#L1 dcache
+export l1_dcache=128kB
+export l1_dcache_assoc=8
+(./specbzip_run & ./spechmmer_run & ./specmcf_run) ; (./specsjeng_run & ./speclbm_run) ; init ;
+export l1_dcache=32kB
+export l1_dcache_assoc=2
+(./specbzip_run & ./spechmmer_run & ./specmcf_run) ; (./specsjeng_run & ./speclbm_run) ; init ;
+export l1_dcache=128kB
+export l1_dcache_assoc=4
+(./specbzip_run & ./spechmmer_run & ./specmcf_run) ; (./specsjeng_run & ./speclbm_run) ; init ;
+#L2 cache
+export l2_cache=1MB
+export l2_assoc=2
+(./specbzip_run & ./spechmmer_run & ./specmcf_run) ; (./specsjeng_run & ./speclbm_run) ; init ;
+export l2_cache=2MB
+export l2_assoc=8
+(./specbzip_run & ./spechmmer_run & ./specmcf_run) ; (./specsjeng_run & ./speclbm_run) ; init ;
+export l2_cache=4MB
+export l2_assoc=4
+(./specbzip_run & ./spechmmer_run & ./specmcf_run) ; (./specsjeng_run & ./speclbm_run) ; init ;
+#cache_line_size
+export cache_line_size=32
+(./specbzip_run & ./spechmmer_run & ./specmcf_run) ; (./specsjeng_run & ./speclbm_run) ; init ;
+export cache_line_size=128
+(./specbzip_run & ./spechmmer_run & ./specmcf_run) ; (./specsjeng_run & ./speclbm_run) ; init ;
+
+figlet Done
