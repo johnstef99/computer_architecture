@@ -8,4 +8,9 @@ OUTPUT_DIR="gem5_outputs"
 cpu_type=$1
 bin2run=$(echo $2 | rev | cut -d'/' -f1 | rev)
 
-$GEM_BIN/build/ARM/gem5.opt -d "gem5_outputs/$bin2run-$cpu_type" $GEM_BIN/configs/example/se.py --cpu-type=$cpu_type --caches -c $2
+$GEM_BIN/build/ARM/gem5.opt \
+  -d "gem5_outputs/$bin2run-$cpu_type" \
+  $GEM_BIN/configs/example/se.py \
+  --cpu-type=$cpu_type \
+  --caches \
+  -c $2
