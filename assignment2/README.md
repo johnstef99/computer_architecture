@@ -21,7 +21,7 @@
 
 ### Ερώτημα 2
 
-Με την χρήση αυτού του [script](assignment2/gem5_outputs/step1_q2.py) παίρνουμε τα εξής σχεδιαγράμματα:
+Με την χρήση αυτού του [script](./gem5_outputs/step1_q2.py) παίρνουμε τα εξής σχεδιαγράμματα:
 ![](./graphs/step1/sim_sec_2GHz_64_32kB_2_64kB_2_2MB_8.png)
 ![](./graphs/step1/cpi_2GHz_64_32kB_2_64kB_2_2MB_8.png)
 ![](./graphs/step1/icache_miss_rate_2GHz_64_32kB_2_64kB_2_2MB_8.png)
@@ -40,8 +40,11 @@ system είναι 1GHz και το `system.cpu_clk_domain = 500` δηλαδή τ
 Τρέχοντας ξανά το benchmark με `--cpu-clock=1GHz` βλέπουμε το `system.clk_domain.clock = 1000` δηλαδή ίδιο με πριν
 και το `system.cpu_clk_domain = 1000` δηλαδή το ρολόι χρονισμού του simulated cpu έγινε 1GHz.
 
-Βλέποντας τα διαγράμματα για **Simulated seconds** και **CPI** με options `1GHz_64_32kB_2_64kB_2_2MB_8`:
+Βλέποντας τα διαγράμματα για options `1GHz_64_32kB_2_64kB_2_2MB_8`:
 ![](./graphs/step1/sim_sec_1GHz_64_32kB_2_64kB_2_2MB_8.png)
 ![](./graphs/step1/cpi_1GHz_64_32kB_2_64kB_2_2MB_8.png)
+![](./graphs/step1/icache_miss_rate_1GHz_64_32kB_2_64kB_2_2MB_8.png)
+![](./graphs/step1/dcache_miss_rate_1GHz_64_32kB_2_64kB_2_2MB_8.png)
+![](./graphs/step1/l2_cache_miss_rate_1GHz_64_32kB_2_64kB_2_2MB_8.png)
 Παρατηρούμε ότι υπάρχει τέλειο scaling αφού μειώνοντας το clock στο μισό τα benchmarks χρειάστηκαν στον διπλάσιο χρόνο.
 Εκτός απο τα speclbm και specsjeng που λόγω των πολλών miss στην L2 cache υπάρχει καθυστέρηση ανεξάρτητη του clock.
