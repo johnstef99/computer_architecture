@@ -43,4 +43,5 @@ system είναι 1GHz και το `system.cpu_clk_domain = 500` δηλαδή τ
 Βλέποντας τα διαγράμματα για **Simulated seconds** και **CPI** με options `1GHz_64_32kB_2_64kB_2_2MB_8`:
 ![](./graphs/step1/sim_sec_1GHz_64_32kB_2_64kB_2_2MB_8.png)
 ![](./graphs/step1/cpi_1GHz_64_32kB_2_64kB_2_2MB_8.png)
-Παρατηρούμε ότι δεν υπάρχει τέλειο scaling αφού μειώνοντας το clock στο μισό τα benchmarks δεν χρειάστηκαν στον διπλάσιο χρόνο.
+Παρατηρούμε ότι υπάρχει τέλειο scaling αφού μειώνοντας το clock στο μισό τα benchmarks χρειάστηκαν στον διπλάσιο χρόνο.
+Εκτός απο τα speclbm και specsjeng που λόγω των πολλών miss στην L2 cache υπάρχει καθυστέρηση ανεξάρτητη του clock.
