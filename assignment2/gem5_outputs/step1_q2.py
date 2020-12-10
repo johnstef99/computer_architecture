@@ -18,7 +18,7 @@ def bar_chart(ids, values, label, xlabel, filename):
     plt.xlabel(xlabel, fontsize=18)
     plt.title(label, fontsize=22)
     plt.tight_layout()
-    plt.savefig('../graphs/'+filename+'.png', dpi=300)
+    plt.savefig('../graphs/step1/'+filename+'.png', dpi=300)
     plt.close()
 
 
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     l1_icache_miss_rate = []
     l1_dcache_miss_rate = []
     l2_cache_miss_rate = []
-    ARGS = '2GHz_64_32kB_2_64kB_2_2MB_8'
+    ARGS = '1GHz_64_32kB_2_64kB_2_2MB_8'
     data.reverse()
     for benchmark in data:
         bid: str = benchmark['id']
