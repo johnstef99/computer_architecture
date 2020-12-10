@@ -7,7 +7,7 @@ import json
 def bar_chart(ids, values, label, xlabel, filename):
     """export chart"""
     y_pos = np.arange(len(ids))
-    figure(num=None, figsize=(2*len(ids), len(ids)),
+    figure(num=None, figsize=(24, 12),
            facecolor='w', edgecolor='k')
     plt.subplots_adjust(left=0.25, right=0.9)
     for i in range(len(values)):

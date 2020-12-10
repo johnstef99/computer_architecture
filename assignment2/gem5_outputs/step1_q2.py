@@ -7,13 +7,16 @@ import json
 def bar_chart(ids, values, label, xlabel, filename):
     """export chart"""
     y_pos = np.arange(len(ids))
-    figure(num=None, figsize=(2*len(ids), len(ids)),
+    figure(num=None, figsize=(24, 12),
            facecolor='w', edgecolor='k')
     plt.subplots_adjust(left=0.25, right=0.9)
+    for i in range(len(values)):
+        plt.text(x=values[i], y=y_pos[i], s=str(
+            values[i]), fontweight='bold', fontsize=18)
     plt.barh(y_pos, values)
-    plt.yticks(y_pos, ids)
-    plt.xlabel(xlabel)
-    plt.title(label)
+    plt.yticks(y_pos, ids, fontsize=18)
+    plt.xlabel(xlabel, fontsize=18)
+    plt.title(label, fontsize=22)
     plt.tight_layout()
     plt.savefig('../graphs/'+filename+'.png', dpi=300)
     plt.close()
@@ -30,6 +33,7 @@ if __name__ == "__main__":
     l1_dcache_miss_rate = []
     l2_cache_miss_rate = []
     ARGS = '2GHz_64_32kB_2_64kB_2_2MB_8'
+    data.reverse()
     for benchmark in data:
         bid: str = benchmark['id']
         if bid[bid.find('_')+1:] == ARGS:
