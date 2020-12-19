@@ -1,0 +1,4 @@
+Reading simulation time from: ../mcpat_output/specsjeng_2GHz_64_32kB_2_64kB_2_4MB_8.txt
+Reading simulation time from: ../../assignment2/gem5_outputs/specsjeng_2GHz_64_32kB_2_64kB_2_4MB_8/stats.txt
+leakage: 1.276720 W, dynamic: 0.129084 W and runtime: 0.516707 sec
+energy is 726.388767 mJ

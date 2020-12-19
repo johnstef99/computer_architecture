@@ -1,0 +1,386 @@
+[
+  {
+    "benchmark": "specbzip_1GHz_64_32kB_2_64kB_2_2MB_8",
+    "energy": 304.343065,
+    "runtime": 0.160272,
+    "area": 51.1994
+  },
+  {
+    "benchmark": "specbzip_2GHz_128_32kB_2_64kB_2_2MB_8",
+    "energy": 83.979499,
+    "runtime": 0.082773,
+    "area": 13.2392
+  },
+  {
+    "benchmark": "specbzip_2GHz_32_32kB_2_64kB_2_2MB_8",
+    "energy": 163.696505,
+    "runtime": 0.093961,
+    "area": 18.7232
+  },
+  {
+    "benchmark": "specbzip_2GHz_64_128kB_8_64kB_2_2MB_8",
+    "energy": 139.82428,
+    "runtime": 0.084115,
+    "area": 19.7282
+  },
+  {
+    "benchmark": "specbzip_2GHz_64_32kB_2_128kB_4_2MB_8",
+    "energy": 128.691473,
+    "runtime": 0.082383,
+    "area": 16.3691
+  },
+  {
+    "benchmark": "specbzip_2GHz_64_32kB_2_128kB_8_2MB_8",
+    "energy": 71.686628,
+    "runtime": 0.08211,
+    "area": 13.3235
+  },
+  {
+    "benchmark": "specbzip_2GHz_64_32kB_2_32kB_2_2MB_8",
+    "energy": 128.007833,
+    "runtime": 0.086017,
+    "area": 13.1219
+  },
+  {
+    "benchmark": "specbzip_2GHz_64_32kB_2_64kB_2_1MB_2",
+    "energy": 132.306114,
+    "runtime": 0.087713,
+    "area": 15.9545
+  },
+  {
+    "benchmark": "specbzip_2GHz_64_32kB_2_64kB_2_2MB_8",
+    "energy": 128.379089,
+    "runtime": 0.084122,
+    "area": 22.1167
+  },
+  {
+    "benchmark": "specbzip_2GHz_64_32kB_2_64kB_2_4MB_4",
+    "energy": 125.72301,
+    "runtime": 0.082352,
+    "area": 22.2732
+  },
+  {
+    "benchmark": "specbzip_2GHz_64_32kB_2_64kB_2_4MB_8",
+    "energy": 134.315709,
+    "runtime": 0.082308,
+    "area": 17.564
+  },
+  {
+    "benchmark": "specbzip_2GHz_64_32kB_8_64kB_2_2MB_8",
+    "energy": 137.804126,
+    "runtime": 0.084118,
+    "area": 17.3131
+  },
+  {
+    "benchmark": "specbzip_2GHz_64_64kB_4_64kB_2_2MB_8",
+    "energy": 130.392646,
+    "runtime": 0.084113,
+    "area": 15.9545
+  },
+  {
+    "benchmark": "spechmmer_1GHz_64_32kB_2_64kB_2_2MB_8",
+    "energy": 239.606201,
+    "runtime": 0.126441,
+    "area": 51.1994
+  },
+  {
+    "benchmark": "spechmmer_2GHz_128_32kB_2_64kB_2_2MB_8",
+    "energy": 66.721364,
+    "runtime": 0.06314,
+    "area": 13.2392
+  },
+  {
+    "benchmark": "spechmmer_2GHz_32_32kB_2_64kB_2_2MB_8",
+    "energy": 115.012,
+    "runtime": 0.064294,
+    "area": 18.7232
+  },
+  {
+    "benchmark": "spechmmer_2GHz_64_128kB_8_64kB_2_2MB_8",
+    "energy": 108.519885,
+    "runtime": 0.063352,
+    "area": 19.7282
+  },
+  {
+    "benchmark": "spechmmer_2GHz_64_32kB_2_128kB_4_2MB_8",
+    "energy": 102.316362,
+    "runtime": 0.063182,
+    "area": 16.3691
+  },
+  {
+    "benchmark": "spechmmer_2GHz_64_32kB_2_128kB_8_2MB_8",
+    "energy": 55.724376,
+    "runtime": 0.063182,
+    "area": 13.3235
+  },
+  {
+    "benchmark": "spechmmer_2GHz_64_32kB_2_32kB_2_2MB_8",
+    "energy": 98.177793,
+    "runtime": 0.063483,
+    "area": 13.1219
+  },
+  {
+    "benchmark": "spechmmer_2GHz_64_32kB_2_64kB_2_1MB_2",
+    "energy": 98.17962,
+    "runtime": 0.063369,
+    "area": 15.9545
+  },
+  {
+    "benchmark": "spechmmer_2GHz_64_32kB_2_64kB_2_2MB_8",
+    "energy": 98.525107,
+    "runtime": 0.063369,
+    "area": 22.1167
+  },
+  {
+    "benchmark": "spechmmer_2GHz_64_32kB_2_64kB_2_4MB_4",
+    "energy": 98.537274,
+    "runtime": 0.063369,
+    "area": 22.2732
+  },
+  {
+    "benchmark": "spechmmer_2GHz_64_32kB_2_64kB_2_4MB_8",
+    "energy": 106.004804,
+    "runtime": 0.063369,
+    "area": 17.564
+  },
+  {
+    "benchmark": "spechmmer_2GHz_64_32kB_8_64kB_2_2MB_8",
+    "energy": 106.383245,
+    "runtime": 0.063355,
+    "area": 17.3131
+  },
+  {
+    "benchmark": "spechmmer_2GHz_64_64kB_4_64kB_2_2MB_8",
+    "energy": 86.562589,
+    "runtime": 0.063352,
+    "area": 15.9545
+  },
+  {
+    "benchmark": "speclbm_1GHz_64_32kB_2_64kB_2_2MB_8",
+    "energy": 335.893682,
+    "runtime": 0.211076,
+    "area": 51.1994
+  },
+  {
+    "benchmark": "speclbm_2GHz_128_32kB_2_64kB_2_2MB_8",
+    "energy": 94.812593,
+    "runtime": 0.102745,
+    "area": 13.2392
+  },
+  {
+    "benchmark": "speclbm_2GHz_32_32kB_2_64kB_2_2MB_8",
+    "energy": 355.335464,
+    "runtime": 0.22903,
+    "area": 18.7232
+  },
+  {
+    "benchmark": "speclbm_2GHz_64_128kB_8_64kB_2_2MB_8",
+    "energy": 195.840222,
+    "runtime": 0.141015,
+    "area": 19.7282
+  },
+  {
+    "benchmark": "speclbm_2GHz_64_32kB_2_128kB_4_2MB_8",
+    "energy": 172.956124,
+    "runtime": 0.141016,
+    "area": 16.3691
+  },
+  {
+    "benchmark": "speclbm_2GHz_64_32kB_2_128kB_8_2MB_8",
+    "energy": 117.662566,
+    "runtime": 0.141016,
+    "area": 13.3235
+  },
+  {
+    "benchmark": "speclbm_2GHz_64_32kB_2_32kB_2_2MB_8",
+    "energy": 185.209145,
+    "runtime": 0.141016,
+    "area": 13.1219
+  },
+  {
+    "benchmark": "speclbm_2GHz_64_32kB_2_64kB_2_1MB_2",
+    "energy": 185.980271,
+    "runtime": 0.141086,
+    "area": 15.9545
+  },
+  {
+    "benchmark": "speclbm_2GHz_64_32kB_2_64kB_2_2MB_8",
+    "energy": 186.95309,
+    "runtime": 0.141016,
+    "area": 22.1167
+  },
+  {
+    "benchmark": "speclbm_2GHz_64_32kB_2_64kB_2_4MB_4",
+    "energy": 186.708872,
+    "runtime": 0.140796,
+    "area": 22.2732
+  },
+  {
+    "benchmark": "speclbm_2GHz_64_32kB_2_64kB_2_4MB_8",
+    "energy": 202.979539,
+    "runtime": 0.140796,
+    "area": 17.564
+  },
+  {
+    "benchmark": "speclbm_2GHz_64_32kB_8_64kB_2_2MB_8",
+    "energy": 204.189156,
+    "runtime": 0.141015,
+    "area": 17.3131
+  },
+  {
+    "benchmark": "speclbm_2GHz_64_64kB_4_64kB_2_2MB_8",
+    "energy": 209.859369,
+    "runtime": 0.141015,
+    "area": 15.9545
+  },
+  {
+    "benchmark": "specmcf_1GHz_64_32kB_2_64kB_2_2MB_8",
+    "energy": 238.634551,
+    "runtime": 0.128605,
+    "area": 51.1994
+  },
+  {
+    "benchmark": "specmcf_2GHz_128_32kB_2_64kB_2_2MB_8",
+    "energy": 63.977337,
+    "runtime": 0.06199,
+    "area": 13.2392
+  },
+  {
+    "benchmark": "specmcf_2GHz_32_32kB_2_64kB_2_2MB_8",
+    "energy": 119.606409,
+    "runtime": 0.069157,
+    "area": 18.7232
+  },
+  {
+    "benchmark": "specmcf_2GHz_64_128kB_8_64kB_2_2MB_8",
+    "energy": 96.554558,
+    "runtime": 0.059944,
+    "area": 19.7282
+  },
+  {
+    "benchmark": "specmcf_2GHz_64_32kB_2_128kB_4_2MB_8",
+    "energy": 96.972961,
+    "runtime": 0.064983,
+    "area": 16.3691
+  },
+  {
+    "benchmark": "specmcf_2GHz_64_32kB_2_128kB_8_2MB_8",
+    "energy": 58.175966,
+    "runtime": 0.064983,
+    "area": 13.3235
+  },
+  {
+    "benchmark": "specmcf_2GHz_64_32kB_2_32kB_2_2MB_8",
+    "energy": 95.957716,
+    "runtime": 0.065038,
+    "area": 13.1219
+  },
+  {
+    "benchmark": "specmcf_2GHz_64_32kB_2_64kB_2_1MB_2",
+    "energy": 96.892157,
+    "runtime": 0.065253,
+    "area": 15.9545
+  },
+  {
+    "benchmark": "specmcf_2GHz_64_32kB_2_64kB_2_2MB_8",
+    "energy": 97.263783,
+    "runtime": 0.064995,
+    "area": 22.1167
+  },
+  {
+    "benchmark": "specmcf_2GHz_64_32kB_2_64kB_2_4MB_4",
+    "energy": 97.241699,
+    "runtime": 0.064968,
+    "area": 22.2732
+  },
+  {
+    "benchmark": "specmcf_2GHz_64_32kB_2_64kB_2_4MB_8",
+    "energy": 104.863355,
+    "runtime": 0.064968,
+    "area": 17.564
+  },
+  {
+    "benchmark": "specmcf_2GHz_64_32kB_8_64kB_2_2MB_8",
+    "energy": 97.132836,
+    "runtime": 0.059943,
+    "area": 17.3131
+  },
+  {
+    "benchmark": "specmcf_2GHz_64_64kB_4_64kB_2_2MB_8",
+    "energy": 79.814631,
+    "runtime": 0.059942,
+    "area": 15.9545
+  },
+  {
+    "benchmark": "specsjeng_1GHz_64_32kB_2_64kB_2_2MB_8",
+    "energy": 1106.918544,
+    "runtime": 0.709309,
+    "area": 51.1994
+  },
+  {
+    "benchmark": "specsjeng_2GHz_128_32kB_2_64kB_2_2MB_8",
+    "energy": 309.567447,
+    "runtime": 0.342151,
+    "area": 13.2392
+  },
+  {
+    "benchmark": "specsjeng_2GHz_32_32kB_2_64kB_2_2MB_8",
+    "energy": 1345.273601,
+    "runtime": 0.888303,
+    "area": 18.7232
+  },
+  {
+    "benchmark": "specsjeng_2GHz_64_128kB_8_64kB_2_2MB_8",
+    "energy": 696.425761,
+    "runtime": 0.516993,
+    "area": 19.7282
+  },
+  {
+    "benchmark": "specsjeng_2GHz_64_32kB_2_128kB_4_2MB_8",
+    "energy": 611.479704,
+    "runtime": 0.516813,
+    "area": 16.3691
+  },
+  {
+    "benchmark": "specsjeng_2GHz_64_32kB_2_128kB_8_2MB_8",
+    "energy": 419.857765,
+    "runtime": 0.516808,
+    "area": 13.3235
+  },
+  {
+    "benchmark": "specsjeng_2GHz_64_32kB_2_32kB_2_2MB_8",
+    "energy": 660.013703,
+    "runtime": 0.516807,
+    "area": 13.1219
+  },
+  {
+    "benchmark": "specsjeng_2GHz_64_32kB_2_64kB_2_1MB_2",
+    "energy": 663.040245,
+    "runtime": 0.517036,
+    "area": 15.9545
+  },
+  {
+    "benchmark": "specsjeng_2GHz_64_32kB_2_64kB_2_2MB_8",
+    "energy": 666.839665,
+    "runtime": 0.516821,
+    "area": 22.1167
+  },
+  {
+    "benchmark": "specsjeng_2GHz_64_32kB_2_64kB_2_4MB_4",
+    "energy": 666.642137,
+    "runtime": 0.516535,
+    "area": 22.2732
+  },
+  {
+    "benchmark": "specsjeng_2GHz_64_32kB_2_64kB_2_4MB_8",
+    "energy": 726.388767,
+    "runtime": 0.516707,
+    "area": 17.564
+  },
+  {
+    "benchmark": "specsjeng_2GHz_64_32kB_8_64kB_2_2MB_8",
+    "energy": 730.072536,
+    "runtime": 0.516983,
+    "area": 17.3131
+  }
+]

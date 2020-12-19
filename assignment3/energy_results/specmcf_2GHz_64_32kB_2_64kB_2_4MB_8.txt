@@ -1,0 +1,4 @@
+Reading simulation time from: ../mcpat_output/specmcf_2GHz_64_32kB_2_64kB_2_4MB_8.txt
+Reading simulation time from: ../../assignment2/gem5_outputs/specmcf_2GHz_64_32kB_2_64kB_2_4MB_8/stats.txt
+leakage: 1.276720 W, dynamic: 0.337357 W and runtime: 0.064968 sec
+energy is 104.863355 mJ

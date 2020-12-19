@@ -1,0 +1,4 @@
+Reading simulation time from: ../mcpat_output/spechmmer_2GHz_64_32kB_2_64kB_2_4MB_8.txt
+Reading simulation time from: ../../assignment2/gem5_outputs/spechmmer_2GHz_64_32kB_2_64kB_2_4MB_8/stats.txt
+leakage: 1.276720 W, dynamic: 0.396098 W and runtime: 0.063369 sec
+energy is 106.004804 mJ
