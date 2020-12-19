@@ -382,5 +382,11 @@
     "energy": 730.072536,
     "runtime": 0.516983,
     "area": 17.3131
+  },
+  {
+    "benchmark": "specsjeng_2GHz_64_64kB_4_64kB_2_2MB_8",
+    "energy": 729.829641,
+    "runtime": 0.516811,
+    "area": 17.3131
   }
 ]
