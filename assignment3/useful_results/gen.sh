@@ -13,12 +13,14 @@ do
   energy=$(cat $energy_outputs/$name.txt | grep energy | cut -d' ' -f3)
   runtime=$(cat $energy_outputs/$name.txt | grep runtime | cut -d' ' -f9)
   area=$(cat $mcpat_outputs/$name.txt | grep Area | head -1 | cut -d' ' -f5)
+  peak_power=$(cat $mcpat_outputs/$name.txt | grep "Peak Power" | head -1 | cut -d' ' -f6)
 
   echo { >> $output
   echo \"benchmark\": \"$name\", >> $output
   echo \"energy\": $energy, >> $output
   echo \"runtime\": $runtime, >> $output
-  echo \"area\": $area >> $output
+  echo \"area\": $area, >> $output
+  echo \"peak_power\": $peak_power >> $output
   echo }, >> $output
 done
 

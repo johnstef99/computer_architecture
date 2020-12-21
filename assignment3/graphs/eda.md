@@ -1,5 +1,0 @@
-![](./specbzip_eda.png)
-![](./spechmmer_eda.png)
-![](./specmcf_eda.png)
-![](./speclbm_eda.png)
-![](./specsjeng_eda.png)

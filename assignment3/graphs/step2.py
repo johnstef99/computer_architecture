@@ -31,8 +31,8 @@ if __name__ == "__main__":
     for BNAME in benchmarks_names:
         benchmark_id = []
         edp = []
-        eda = []
         energys = []
+        peaks = []
         print(BNAME)
         for benchmark in data:
             bid: str = benchmark['benchmark']
@@ -43,13 +43,14 @@ if __name__ == "__main__":
                 energy = benchmark['energy']
                 runtime = benchmark['runtime']
                 area = benchmark['area']
-                edp.append(round(energy*runtime))
-                eda.append(round(energy*runtime*area))
+                peak_power = benchmark['peak_power']
                 energys.append(energy)
+                peaks.append(peak_power)
+                edp.append(energy*runtime)
 
         bar_chart(benchmark_id, edp, BNAME + ' - EDP',
                   'energy * delay', 'edp')
-        bar_chart(benchmark_id, eda, BNAME + ' - EDA',
-                  'energy * delay * area', 'eda')
         bar_chart(benchmark_id, energys, BNAME + ' - Energy (mJ)',
                   'energy', 'energy')
+        bar_chart(benchmark_id, peaks, BNAME + ' - Peak Power (W)',
+                  'peak power', 'peak_power')
