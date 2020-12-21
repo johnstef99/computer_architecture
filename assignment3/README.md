@@ -159,7 +159,7 @@ PARΜ =  Runtime Dynamic +Total leakage = 3.0692W
 
 ## Πηγές
 
-[1](https://www.google.com/books/edition/Low_Power_Design_Methodologies/9IzuBwAAQBAJ?gbpv=1) σελ.4, 273<br>
-[2](<https://en.wikipedia.org/wiki/Leakage_(electronics)#Between_electronic_assemblies_and_circuits>)<br>
-[3](https://www.hpl.hp.com/research/mcpat/micro09.pdf) σελ.1 Abstract<br>
-[4](https://www.hpl.hp.com/research/mcpat/micro09.pdf) figure 3<br>
+[[1]](https://www.google.com/books/edition/Low_Power_Design_Methodologies/9IzuBwAAQBAJ?gbpv=1) σελ.4, 273<br>
+[[2]](<https://en.wikipedia.org/wiki/Leakage_(electronics)#Between_electronic_assemblies_and_circuits>)<br>
+[[3]](https://www.hpl.hp.com/research/mcpat/micro09.pdf) σελ.1 Abstract<br>
+[[4]](https://www.hpl.hp.com/research/mcpat/micro09.pdf) figure 3<br>
