@@ -1,0 +1,5 @@
+![](./specbzip_energy.png)
+![](./spechmmer_energy.png)
+![](./specmcf_energy.png)
+![](./speclbm_energy.png)
+![](./specsjeng_energy.png)
